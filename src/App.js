@@ -1,13 +1,10 @@
-import React from 'react';
-import './App.css';
-import Pioneer from './components/Pioneer';
-const App=()=> {
-  return (
-   <>
-     <Pioneer />
-   </>
-    
-  );
+import React from 'react'
+import Home from './pages/home/Home'
+const App = () => {
+  return ( 
+    <Home />
+  )
 }
 
-export default App;
+export default App
+
